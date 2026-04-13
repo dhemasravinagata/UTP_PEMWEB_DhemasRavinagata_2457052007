@@ -61,7 +61,7 @@ body {
 .buttons {
     display: flex;
     flex-direction: column;
-    gap: 20px;  /* Jarak antar tombol lebih lebar */
+    gap: 20px;  
 }
 
 .btn {
@@ -95,13 +95,13 @@ small {
 }
 
 .card h2 {
-    font-size: 26px;  /* Ukuran judul lebih besar */
-    margin-bottom: 15px;  /* Jarak bawah lebih besar untuk keseimbangan */
+    font-size: 26px;  
+    margin-bottom: 15px;  
 }
 
 .card p {
     font-size: 18px;  
-    line-height: 1.6;  /* Lebih lega antar baris teks */
+    line-height: 1.6;  
 }
 
 .card .buttons a {
