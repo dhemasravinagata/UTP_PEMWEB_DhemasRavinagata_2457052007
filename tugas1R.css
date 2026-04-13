@@ -1,0 +1,113 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #1e2a78; 
+    color: #333;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.card {
+    padding: 40px; 
+    border-radius: 15px;
+    width: 400px;
+    background-color: #1e2a78; 
+    text-align: center;
+    color: white;
+    transition: transform 0.3s ease-in-out;
+}
+
+.profile-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 3px solid white;
+    margin-bottom: 20px;
+}
+
+.content-img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin: 15px 0;  
+}
+
+.makan-img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin: 15px 0;  
+}
+
+.skill-img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin: 15px 0;  
+}
+
+.desc {
+    font-size: 16px;
+    margin-bottom: 20px;  
+    font-weight: bold;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;  /* Jarak antar tombol lebih lebar */
+}
+
+.btn {
+    text-decoration: none;
+    background: #4c63ff;
+    padding: 15px;
+    border-radius: 10px;
+    color: white;
+    font-size: 18px; 
+    text-transform: uppercase;
+    transition: 0.3s ease;
+}
+
+.btn-red {
+    background: #ff4d4d;
+}
+
+.btn-red:hover {
+    background: #e63f3f;
+}
+
+.content {
+    margin-top: 20px;
+}
+
+small {
+    font-size: 14px; 
+    opacity: 0.8;
+    display: block;
+    margin-top: 10px;
+}
+
+.card h2 {
+    font-size: 26px;  /* Ukuran judul lebih besar */
+    margin-bottom: 15px;  /* Jarak bawah lebih besar untuk keseimbangan */
+}
+
+.card p {
+    font-size: 18px;  
+    line-height: 1.6;  /* Lebih lega antar baris teks */
+}
+
+.card .buttons a {
+    font-weight: bold;
+}
+
+.card .buttons a:last-child {
+    margin-top: 15px;
+}
